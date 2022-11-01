@@ -28,3 +28,16 @@ a {
     background-color: #E6F6C2;
     color: #000;
 }
+p {
+    border-width: thick;
+    border-top-style: dotted;
+    border-bottom-style: dashed;
+    border-left-style: solid;
+    border-right-style: double;
+    border-top-color: #16DB93;
+    border-bottom-color: #A4036F;
+    border-left-color: #EFEA5A;
+    border-right-color: #FE5E41;
+    border-radius: 5px;
+
+}
