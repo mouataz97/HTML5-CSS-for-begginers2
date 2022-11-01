@@ -1,5 +1,6 @@
 body {
-    font-family: Futura;
+    width: 700px;
+    text-align: center;
 }
 
 h1 {
@@ -7,8 +8,22 @@ h1 {
     border: 10px solid #B33C86;
 }
 
-p {
+#paddings {
     color: #190E4F;
     border: 5px solid #190E4F;
     padding: 5px 30px 5px 30px; /* TRBL Top Right Bottom Left*/
+}
+
+#margins p {
+    font-family: 'Minion Pro';
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 40px;
+}
+
+#margins img {
+    width: 150px;
+    border: 10px solid black;
+    margin: -16px 30px 0px 30px;
 }
