@@ -26,3 +26,18 @@ body {
     font-size: 12px;
     margin-top: -15px;
   }
+  
+div {
+    font-family: Futura;
+    font-size: 2em;
+    color: white;
+    flex-direction: column;  /*row, row-reverse, column, column-reverse*/
+    border-radius: 3px;
+    margin: 10px;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 20% 60%;
+    grid-gap: 10px;
+}
