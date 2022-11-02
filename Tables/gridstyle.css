@@ -1,8 +1,8 @@
 .container {
     display: grid;
-    grid-template-columns: 20% 20% 20%;
-    grid-template-rows: 3em 1.6em 1.6em;
+    /*grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 1.6em 1.6em 1.6em;*/
+    grid-template:  repeat(3,1.6em) / repeat(3,20%) ; /*first rows followed by columnds*/
     grid-auto-rows: 3em;
     grid-gap: 10px;
-
 }
