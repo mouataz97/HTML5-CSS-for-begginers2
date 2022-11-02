@@ -6,15 +6,23 @@
 }
 
 .container { 
+    border: 15px solid orange;
     display: flex;
     /*flex-flow: row wrap; (does both those lanes by combining them)*/ 
     flex-direction: row;  /*row, row-reverse, column, column-reverse*/
     flex-wrap: wrap; /*wrap, wrap-reverse*/
+    justify-content: space-between;
+    height: 300px;
+    align-items: center;
 }
 
 .item {
     width: 100px;
     height: 70px;
+}
+
+#move-it{
+    align-self: flex-start;
 }
 
 .container div:nth-child(1), div:nth-child(6) {
