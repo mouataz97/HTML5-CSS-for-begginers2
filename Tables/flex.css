@@ -5,8 +5,11 @@
     text-align: center;
 }
 
-.container {
-    border: 2px solid black;
+.container { 
+    display: flex;
+    /*flex-flow: row wrap; (does both those lanes by combining them)*/ 
+    flex-direction: row;  /*row, row-reverse, column, column-reverse*/
+    flex-wrap: wrap; /*wrap, wrap-reverse*/
 }
 
 .item {
