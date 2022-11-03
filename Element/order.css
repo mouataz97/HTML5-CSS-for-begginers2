@@ -1,3 +1,15 @@
+* {
+    font-family: Futura;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#card1, #card2, #card3 {
+    width: 200px;
+    height: 200px;
+}
+
 #card1 {
     position: absolute;
     top: 20px;
