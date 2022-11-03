@@ -17,3 +17,8 @@ img {
 #clear {
     clear: both;
 }
+
+#card1, #card2, #card3 {
+    width: 200px;
+    height: 200px;
+}
