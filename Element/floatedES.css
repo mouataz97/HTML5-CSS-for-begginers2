@@ -1,0 +1,19 @@
+* {
+    font-family: Futura;
+}
+
+article {
+    background-color: #c1e0f4;
+    padding: 10px;
+}
+
+img {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#clear {
+    clear: both;
+}
